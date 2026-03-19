@@ -1,0 +1,20 @@
+{
+  "name": "@kszongic/bin2oct-cli",
+  "version": "1.0.0",
+  "description": "Convert binary strings to octal from the command line. Zero dependencies.",
+  "main": "index.js",
+  "bin": {
+    "bin2oct": "index.js"
+  },
+  "scripts": {
+    "test": "node index.js 101010"
+  },
+  "keywords": ["binary", "octal", "convert", "cli", "bin2oct"],
+  "author": "kszongic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kszongic/bin2oct-cli"
+  },
+  "type": "commonjs"
+}
